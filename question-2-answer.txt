@@ -1,0 +1,13 @@
+1 - "object"
+
+2 - "12"
+
+3 - 10
+
+4 - 
+	foo
+	undefined
+	bar
+	undefined
+	
+5 - 16

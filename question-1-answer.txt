@@ -1,0 +1,30 @@
+1 - 
+	var:
+		- function scoped
+		- hoisted (only the decleration and not the assigned value)
+		- open for bugs and polluting the global object
+	let: 
+		- block scoped
+		- no hoising
+		- safer way for declaring variables
+
+		
+2 - 
+	"==": checks for value equality no matter what the type is Ex: 1 == "1"  => true
+	"===": checks for both value and type equality Ex: 1 === "1" => false
+
+	
+3 - 
+	both of them are loop statements but the difference is in their use cases: 
+		while: 
+			- when we don't know exactly how many iterations would it take to reach our final iteration Ex: taking user input
+		for:
+			- when we have info about the total number of iterations we need to do Ex: iterating over an array
+
+
+4 - 
+	if:
+		- test a condition or several conditions and then decide which block to be executed, It's like forking the code flow to differentz paths (no wonder they're one of the control flow structures)
+
+	switch:
+		- it takes an expression and starts to match it with several cases (strict equality) until it finds a match, then it executes the code block corresponding to that matching case.
